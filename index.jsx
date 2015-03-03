@@ -6,7 +6,9 @@ var Style = require('./index.css!');
 var YHeader = {
 	render: function () {
 		var classes = b('y-header', {
-			theme: this.props.theme || 'normal'
+			theme: this.props.theme || 'normal',
+			border: this.props.border,
+			fixed: this.props.fixed
 		});
 
 		return (
