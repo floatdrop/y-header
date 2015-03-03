@@ -5,10 +5,10 @@ var React = require('react');
 var YHeader = require('./index.jsx!');
 
 React.render((
-    <div style={{background: '#f7f7f7'}}>
+    <div>
         <div style={{padding: '10px'}}>
             <YHeader fixed>
-                Y-header fixed
+                y-header fixed
             </YHeader>
         </div>
 
@@ -25,19 +25,19 @@ React.render((
         <br/>
         <div>
             <YHeader>
-                Y-header default
+                y-header default
             </YHeader>
         </div>
         <br/>
         <div>
             <YHeader border="white">
-                Y-header white border
+                y-header white border
             </YHeader>
         </div>
         <br/>
         <div>
             <YHeader border="transparent">
-                Y-header transparent border
+                y-header transparent border
             </YHeader>
         </div>
     </div>
