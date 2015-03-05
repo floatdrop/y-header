@@ -20,8 +20,13 @@
     "url": "https://github.com/y-components/y-header/issues"
   },
   "homepage": "https://github.com/y-components/y-header",
+  "files": [
+    "index.css",
+    "index.jsx"
+  ],
   "jspm": {
     "main": "index.jsx!",
+    "registry": "jspm",
     "directories": {
       "lib": ".",
       "packages": "jspm_packages"
