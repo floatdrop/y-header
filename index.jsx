@@ -4,6 +4,8 @@ var b = require('b_');
 var Style = require('./index.css!');
 
 var YHeader = {
+	displayName: 'y-header',
+
 	render: function () {
 		var classes = b('y-header', {
 			theme: this.props.theme || 'normal',
