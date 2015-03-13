@@ -27,7 +27,7 @@ var YHeader = {
 
 		var styles = {
 			height: this.state.height,
-			'line-height': this.state.height
+			lineHeight: this.state.height
 		};
 
 		return (
