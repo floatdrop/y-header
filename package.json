@@ -1,6 +1,6 @@
 {
   "name": "y-header",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "y-component header",
   "scripts": {
     "serve": "http-server -p 8080 -o -c-1"
