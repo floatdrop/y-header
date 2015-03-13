@@ -8,7 +8,7 @@ var YHeader = {
 
 	getDefaultProps: function() {
 		return {
-			height: '70px';
+			height: '70px'
 		};
 	},
 
