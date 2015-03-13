@@ -6,6 +6,18 @@ var Style = require('./index.css!');
 var YHeader = {
 	displayName: 'y-header',
 
+	getDefaultProps: function() {
+		return {
+			height: '70px';
+		};
+	},
+
+	getInitialState: function() {
+		return {
+			height: this.props.height
+		};
+	},
+
 	render: function () {
 		var classes = b('y-header', {
 			theme: this.props.theme || 'normal',
@@ -13,8 +25,13 @@ var YHeader = {
 			fixed: this.props.fixed
 		});
 
+		var styles = {
+			height: this.state.height,
+			line-height: this.state.height
+		};
+
 		return (
-			<div className={classes}>
+			<div className={classes} style={styles}>
 				{this.props.children}
 			</div>
 		);
